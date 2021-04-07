@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+    <link rel="stylesheet" href="tabela.css">
+</head>
+
+<body>
+    <header class="page-title">
+    <h1 >Exame Chunin</h1>
+    </header>
+  
+    <section class="container-geral">
+    <table class="container">
+        <thead>
+            <tr>
+                <th>Perfil</th>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th></th>
+                <th>Ações</th>
+                <th></th> 
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores" class="tabela_j">
+
+        </tbody>
+    </table>
+
+    <div class="add-info">
+        <input type="text" placeholder="Adicione a URL da imagem" id="addImagem">
+        <input type="text" placeholder="Adicione o nome do personagem" id="addNome">
+        <button onclick="adicionarPersonagem()">Adicionar</button>
+    </div>
+
+    </section>
+    <script src="tabela.js"></script>
+</body>
+
+</html>

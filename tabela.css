@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://pm1.narvii.com/6665/0947f8eb74eb088e9c68c3e3cf8103f9c756792f_hq.jpg');
+    background-color: #111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.page-title {
+    border: solid rgba(0, 0, 0, 0);
+    background-color: rgb(67, 67, 160);
+    margin-bottom: 80px;
+    color: white;
+    height: 55px;
+}
+
+.container-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px;
+    border-collapse: collapse;
+    background-color: rgba(47, 47, 114, 0.925);
+}
+
+tr,th,td {
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.add-info {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px;
+    border-collapse: collapse;
+    background-color: rgba(47, 47, 114, 0.925);
+}
+
+input {
+    border-radius: 8px;
+    height: 30px;
+    border: solid rgba(56, 56, 196, 0) 2px;
+    background-color: rgb(77, 77, 139);
+    color: whitesmoke;
+}
+
+button {
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(68, 67, 146, 0.849);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 540;
+}
+
+button:hover{
+    background-color: rgb(43, 43, 121);
+    transition: 0.5s;
+}
+
+#tabelaJogadores img {
+    height: 80px;
+    width: 120px;
+    border-radius: 10px;
+}
